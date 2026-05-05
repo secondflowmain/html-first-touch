@@ -1,0 +1,297 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>SecondFlow — автоматизация продажи неликвидов</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-color: #0F5C55;
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+    table {
+      border-collapse: collapse;
+      mso-table-lspace: 0;
+      mso-table-rspace: 0;
+    }
+    td, th {
+      padding: 0;
+    }
+    .ExternalClass, .ReadMsgBody {
+      width: 100%;
+      background-color: #0F5C55;
+    }
+    a {
+      text-decoration: none;
+      color: #F05A28;
+    }
+    .doc-link {
+      font-size: 14px;
+      color: #F05A28;
+      text-decoration: none;
+      border-bottom: 1px dashed #F05A28;
+    }
+    @media only screen and (max-width: 600px) {
+      .banner-img {
+        width: 100% !important;
+        height: auto !important;
+      }
+      .cta-button {
+        padding: 12px 24px !important;
+        font-size: 15px !important;
+      }
+      h1 {
+        font-size: 22px !important;
+      }
+      h2 {
+        font-size: 18px !important;
+      }
+      .content-cell {
+        padding: 20px 16px !important;
+      }
+      .stat-cell {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 8px !important;
+      }
+      .format-cell {
+        display: block !important;
+        width: 100% !important;
+        margin-bottom: 10px !important;
+      }
+    }
+  </style>
+</head>
+<body style="margin: 0; padding: 0; background-color: #0F5C55; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;">
+
+  <img src="https://n8n.sgdtc.com/webhook/email_open?rid=5e1830be5ac01315"
+       width="1" height="1"
+       style="display:none; width:1px; height:1px; border:0; opacity:0;"
+       alt="">
+
+  <table width="100%" cellpadding="0" cellspacing="0" border="0" bgcolor="#0F5C55">
+    <tr>
+      <td align="center" style="padding: 24px 0 40px 0;">
+
+        <table width="100%" cellpadding="0" cellspacing="0" border="0" style="max-width: 600px; width: 100%; background-color: #FFFFFF; border-radius: 20px; overflow: hidden; box-shadow: 0 8px 32px rgba(0,0,0,0.20);">
+
+          <tr>
+            <td align="center" bgcolor="#0F5C55" style="padding: 0;">
+              <img src="https://secondflow.store/media/banner_first_touch_1.png"
+                   width="600"
+                   class="banner-img"
+                   style="display: block; width: 100%; max-width: 600px; height: auto;"
+                   alt="SecondFlow — автоматизация продажи неликвидов">
+            </td>
+          </tr>
+
+          <tr>
+            <td class="content-cell" style="padding: 32px 32px 28px 32px; background-color: #FFFFFF;">
+
+              <p style="font-size: 15px; color: #555555; line-height: 1.5; margin: 0 0 20px 0;">
+                Здравствуйте, Тимур Дамирович!
+              </p>
+
+              <h1 style="font-size: 26px; color: #0F5C55; font-weight: 700; margin: 0 0 12px 0; line-height: 1.25;">
+                Ваши неликвидные ТМЦ<br>могут приносить деньги — уже через 3 дня
+              </h1>
+
+              <p style="font-size: 15px; color: #444444; line-height: 1.6; margin: 0 0 6px 0; border-left: 3px solid #0F5C55; padding-left: 12px;">
+                <strong>SecondFlow</strong> — сервис автоматизации продажи неликвидов промышленных предприятий. Мы превращаем разрозненные Excel-таблицы, фото и накладные в готовые структурированные прайс-листы и карточки товаров для B2B-площадок с помощью OCR и AI.
+              </p>
+
+              <hr style="border: none; border-top: 1px solid #EEEEEE; margin: 20px 0;">
+
+              <h2 style="font-size: 17px; color: #222222; font-weight: 700; margin: 0 0 10px 0;">
+                🔒 Знакомая ситуация?
+              </h2>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px; background-color: #FFF8F5; border-radius: 12px; border: 1px solid #FAD4C0;">
+                <tr>
+                  <td style="padding: 16px 18px;">
+                    <p style="font-size: 14px; color: #444444; margin: 0 0 8px 0; line-height: 1.55;">❌ Информация о неликвидах хранится в XLS, PDF и фотоархивах — разрозненно, без единого источника</p>
+                    <p style="font-size: 14px; color: #444444; margin: 0 0 8px 0; line-height: 1.55;">❌ Каждая площадка требует свой уникальный формат карточек — вручную это недели работы</p>
+                    <p style="font-size: 14px; color: #444444; margin: 0 0 8px 0; line-height: 1.55;">❌ При тысячах позиций ручная обработка нерентабельна: 250 ₽ на позицию через контент-менеджера</p>
+                    <p style="font-size: 14px; color: #444444; margin: 0; line-height: 1.55;">❌ Активы простаивают на складе, пока сотрудники вручную готовят данные к публикации</p>
+                  </td>
+                </tr>
+              </table>
+
+              <h2 style="font-size: 17px; color: #0F5C55; font-weight: 700; margin: 0 0 10px 0;">
+                ✅ Что делает SecondFlow
+              </h2>
+              <p style="font-size: 14px; color: #444444; line-height: 1.6; margin: 0 0 14px 0;">
+                Вы загружаете данные через <strong>Seller Dashboard</strong> <a href="https://n8n.sgdtc.com/webhook/app-sfsd?rid=5e1830be5ac01315&url=https%3A%2F%2Fsecondflowmain.glide.page%2F" style="color: #0F5C55; text-decoration: underline; font-weight: 600;">наше мобильное приложение</a>. Система применяет <strong>OCR + AI</strong> для распознавания характеристик из фото и документов, затем автоматически формирует прайс-лист в нужном формате: xlsx, csv, xml, yml.
+              </p>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px;">
+                <tr>
+                  <td style="padding: 0;">
+                    <p style="font-size: 14px; color: #333333; margin: 0 0 9px 0; line-height: 1.5;">🤖 OCR + AI-распознавание характеристик из фото и документов</p>
+                    <p style="font-size: 14px; color: #333333; margin: 0 0 9px 0; line-height: 1.5;">📄 Структурированный прайс-лист под формат любой B2B-площадки (xlsx, csv, xml, yml)</p>
+                    <p style="font-size: 14px; color: #333333; margin: 0 0 9px 0; line-height: 1.5;">🌐 Размещение на Avito, Пульс цен, Blizko и других площадках — в расширенном формате</p>
+                    <p style="font-size: 14px; color: #333333; margin: 0; line-height: 1.5;">📊 Ведение воронки обращений + финансовый отчёт для CFO</p>
+                  </td>
+                </tr>
+              </table>
+
+              <h2 style="font-size: 17px; color: #0F5C55; font-weight: 700; margin: 0 0 12px 0;">
+                📊 Рынок и ваша выгода
+              </h2>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px;">
+                <tr>
+                  <td width="32%" valign="top" class="stat-cell" bgcolor="#F0F8F7" style="border-radius: 14px; padding: 14px 10px; text-align: center;">
+                    <p style="font-size: 22px; color: #0F5C55; font-weight: 800; margin: 0 0 4px 0;">7,5 <span style="font-size: 13px;">трлн ₽</span></p>
+                    <p style="font-size: 11px; color: #666666; margin: 0; line-height: 1.4;">объём замороженных ТМЦ в промышленности России</p>
+                  </td>
+                  <td width="2%"></td>
+                  <td width="32%" valign="top" class="stat-cell" bgcolor="#FFF4EF" style="border-radius: 14px; padding: 14px 10px; text-align: center;">
+                    <p style="font-size: 22px; color: #F05A28; font-weight: 800; margin: 0 0 4px 0;">28,8%</p>
+                    <p style="font-size: 11px; color: #666666; margin: 0; line-height: 1.4;">складских запасов — неликвиды на крупных предприятиях</p>
+                  </td>
+                  <td width="2%"></td>
+                  <td width="32%" valign="top" class="stat-cell" bgcolor="#F0F8F7" style="border-radius: 14px; padding: 14px 10px; text-align: center;">
+                    <p style="font-size: 22px; color: #0F5C55; font-weight: 800; margin: 0 0 4px 0;">до 91%</p>
+                    <p style="font-size: 11px; color: #666666; margin: 0; line-height: 1.4;">экономии на обработке по сравнению с ручным методом</p>
+                  </td>
+                </tr>
+              </table>
+
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px; border-radius: 14px; overflow: hidden;">
+                <tr>
+                  <td bgcolor="#F8F9FA" style="padding: 14px 16px; border-radius: 14px;">
+                    <p style="font-size: 13px; color: #777777; margin: 0 0 8px 0; font-weight: 700; text-transform: uppercase; letter-spacing: 0.5px;">Стоимость обработки 1 позиции</p>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0">
+                      <tr>
+                        <td width="33%" style="text-align: center; padding: 8px 4px;">
+                          <p style="font-size: 13px; color: #999999; margin: 0 0 4px 0;">Контент-менеджер</p>
+                          <p style="font-size: 18px; color: #CC4444; font-weight: 700; margin: 0; text-decoration: line-through;">250 ₽</p>
+                        </td>
+                        <td width="33%" style="text-align: center; padding: 8px 4px;">
+                          <p style="font-size: 13px; color: #999999; margin: 0 0 4px 0;">Фрилансер</p>
+                          <p style="font-size: 18px; color: #CC4444; font-weight: 700; margin: 0; text-decoration: line-through;">100 ₽</p>
+                        </td>
+                        <td width="33%" bgcolor="#0F5C55" style="text-align: center; padding: 8px 4px; border-radius: 10px;">
+                          <p style="font-size: 13px; color: #A8D5CF; margin: 0 0 4px 0;">SecondFlow AI</p>
+                          <p style="font-size: 20px; color: #FFFFFF; font-weight: 800; margin: 0;">от 22 ₽</p>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+              </table>
+
+              <h2 style="font-size: 17px; color: #0F5C55; font-weight: 700; margin: 0 0 12px 0;">
+                Два формата — под вашу задачу
+              </h2>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px;">
+                <tr>
+                  <td width="48%" valign="top" class="format-cell" style="border-radius: 14px; padding: 16px; border: 2px solid #E8F4F3; background-color: #F8FFFE;">
+                    <p style="font-size: 16px; color: #0F5C55; font-weight: 700; margin: 0 0 6px 0;">📄 Прайс-лист</p>
+                    <p style="font-size: 13px; color: #555555; margin: 0 0 4px 0; line-height: 1.5;">Готовый структурированный каталог под формат нужной площадки с AI-описаниями и рыночными ценами. Передаём вам файл — публикуете сами.</p>
+                    <p style="font-size: 11px; color: #888888; margin: 6px 0 4px 0;">Разовая услуга</p>
+                    <p style="font-size: 20px; color: #0F5C55; font-weight: 800; margin: 0;">от 22 ₽ <span style="font-size: 13px; font-weight: 400; color: #888888;">/ позиция</span></p>
+                  </td>
+                  <td width="4%"></td>
+                  <td width="48%" valign="top" class="format-cell" style="border-radius: 14px; padding: 16px; border: 2px solid #F05A28; background-color: #FFF8F5;">
+                    <p style="font-size: 16px; color: #F05A28; font-weight: 700; margin: 0 0 6px 0;">🔄 Полный цикл</p>
+                    <p style="font-size: 13px; color: #555555; margin: 0 0 4px 0; line-height: 1.5;">Прайс-лист + публикация на B2B-площадках + ведение воронки обращений + сопровождение сделок + финансовый отчёт.</p>
+                    <p style="font-size: 11px; color: #888888; margin: 6px 0 4px 0;">Подписка</p>
+                    <p style="font-size: 20px; color: #F05A28; font-weight: 800; margin: 0;">от 38 ₽ <span style="font-size: 13px; font-weight: 400; color: #888888;">/ позиция</span></p>
+                  </td>
+                </tr>
+              </table>
+
+              <h2 style="font-size: 17px; color: #0F5C55; font-weight: 700; margin: 0 0 12px 0;">
+                Как запустить пилот за 4 шага
+              </h2>
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px;">
+                <tr>
+                  <td style="padding: 0;">
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 8px;"><tr><td width="32" valign="top" style="padding-top: 1px;"><div style="width: 24px; height: 24px; border-radius: 50%; background-color: #0F5C55; text-align: center; line-height: 24px; font-size: 12px; color: #FFFFFF; font-weight: 700;">1</div></td><td style="padding-left: 8px; font-size: 14px; color: #333333; line-height: 1.5;">Оставьте заявку — ответим в течение 1 рабочего дня</td></tr></table>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 8px;"><tr><td width="32" valign="top" style="padding-top: 1px;"><div style="width: 24px; height: 24px; border-radius: 50%; background-color: #0F5C55; text-align: center; line-height: 24px; font-size: 12px; color: #FFFFFF; font-weight: 700;">2</div></td><td style="padding-left: 8px; font-size: 14px; color: #333333; line-height: 1.5;">Загрузите данные о 100–500 позициях, получив доступ через приложение или Google-форму</td></tr></table>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 8px;"><tr><td width="32" valign="top" style="padding-top: 1px;"><div style="width: 24px; height: 24px; border-radius: 50%; background-color: #0F5C55; text-align: center; line-height: 24px; font-size: 12px; color: #FFFFFF; font-weight: 700;">3</div></td><td style="padding-left: 8px; font-size: 14px; color: #333333; line-height: 1.5;">Подпишем NDA, соглашение о тестировании или договор на обработку данных — юридически чисто</td></tr></table>
+                    <table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td width="32" valign="top" style="padding-top: 1px;"><div style="width: 24px; height: 24px; border-radius: 50%; background-color: #F05A28; text-align: center; line-height: 24px; font-size: 12px; color: #FFFFFF; font-weight: 700;">4</div></td><td style="padding-left: 8px; font-size: 14px; color: #333333; line-height: 1.5;">Получите готовый каталог с AI-описаниями, ценами и рекомендациями по площадкам</td></tr></table>
+                  </td>
+                </tr>
+              </table>
+
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 20px; background-color: #F8F9FA; border-radius: 14px;">
+                <tr>
+                  <td style="padding: 16px 18px;">
+                    <p style="font-size: 13px; color: #555555; font-weight: 700; margin: 0 0 10px 0;">Полезные ссылки:</p>
+                    <p style="font-size: 13px; color: #333333; margin: 0 0 8px 0;">
+                      🌐 <a href="https://n8n.sgdtc.com/webhook/site?rid=5e1830be5ac01315&url=https%3A%2F%2Fsecondflow.store%2F" style="color: #0F5C55; text-decoration: underline;">secondflow.store</a> — сайт с информацией о сервисе
+                    </p>
+                    <p style="font-size: 13px; color: #333333; margin: 0 0 8px 0;">
+                      📱 <a href="https://n8n.sgdtc.com/webhook/app-sfsd?rid=5e1830be5ac01315&url=https%3A%2F%2Fsecondflowmain.glide.page%2F" style="color: #0F5C55; text-decoration: underline;">Мобильное приложение</a> — добавьте неликвиды самостоятельно
+                    </p>
+                    <p style="font-size: 13px; color: #333333; margin: 0 0 8px 0;">
+                      📝 <a href="https://n8n.sgdtc.com/webhook/form-getting-access-sfsd?rid=5e1830be5ac01315&url=https%3A%2F%2Fforms.gle%2FPZwLjpPK13gfWsVb7" style="color: #0F5C55; text-decoration: underline;">Google-форма</a> — не хотите заполнять сами? Мы заполним за вас
+                    </p>
+                    <p style="font-size: 13px; color: #333333; margin: 0;">
+                      📄 <a href="https://n8n.sgdtc.com/webhook/pdf-pilot?rid=5e1830be5ac01315&url=https%3A%2F%2Fsecondflow.store%2Fmedia%2FSecondFlow-Pilot.pdf" style="color: #F05A28; text-decoration: underline; border-bottom: 1px dashed #F05A28;">Подробная презентация пилота</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 24px; background-color: #EFFAF8; border-radius: 14px; border: 1px solid #C2E8E2;">
+                <tr>
+                  <td style="padding: 14px 16px;">
+                    <p style="font-size: 13px; color: #0F5C55; font-weight: 700; margin: 0 0 6px 0;">🔐 Юридическая чистота гарантирована</p>
+                    <p style="font-size: 13px; color: #444444; margin: 0; line-height: 1.55;">Перед стартом подписываем NDA и договор на обработку данных. Вся информация о составе и стоимости ваших ТМЦ защищена режимом коммерческой тайны.</p>
+                  </td>
+                </tr>
+              </table>
+
+              <table width="100%" cellpadding="0" cellspacing="0" border="0" style="margin-bottom: 14px;">
+                <tr>
+                  <td align="center">
+                    <a href="https://secondflow.store/pilot.html?rid=5e1830be5ac01315&utm_source=email_pilot&utm_campaign=first_touch"
+                       class="cta-button"
+                       style="display: inline-block; background-color: #F05A28; color: #FFFFFF; font-size: 16px; font-weight: 700; padding: 15px 40px; border-radius: 40px; text-decoration: none; font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; box-shadow: 0 4px 14px rgba(240,90,40,0.35); letter-spacing: 0.2px;">
+                      🚀 Запустить пилот
+                    </a>
+                  </td>
+                </tr>
+              </table>
+
+              <p style="font-size: 12px; color: #AAAAAA; text-align: center; margin: 0 0 22px 0;">
+                Пилот от 100 позиций · Ответим в течение 1 рабочего дня · Без скрытых условий
+              </p>
+
+              <hr style="border: none; border-top: 1px solid #EEEEEE; margin: 0 0 18px 0;">
+
+              <p style="font-size: 13px; color: #999999; text-align: center; margin: 0;">
+                С уважением,<br>
+                <strong style="color: #0F5C55;">Команда SecondFlow</strong><br>
+                <span style="font-size: 12px;">
+                  ✉️ <a href="mailto:sales@secondflow.store" style="color: #0F5C55;">sales@secondflow.store</a>
+                  &nbsp;|&nbsp;
+                  📞 <a href="tel:+79211050409" style="color: #0F5C55;">+7 (921) 105-04-09</a>
+                </span><br>
+                <span style="font-size: 12px;">
+                  🌐 <a href="https://n8n.sgdtc.com/webhook/site?rid=5e1830be5ac01315&url=https%3A%2F%2Fsecondflow.store%2F" style="color: #0F5C55;">secondflow.store</a>
+                </span>
+              </p>
+
+            </td>
+          </tr>
+
+        </table>
+
+        <p style="font-size: 11px; color: #8BA8A4; text-align: center; margin-top: 16px; padding: 0 20px;">
+          Если вы не хотите получать наши письма,
+          <a href="https://n8n.sgdtc.com/webhook/unsubscribe?rid=5e1830be5ac01315" style="color: #8BA8A4; text-decoration: underline;">
+            отпишитесь
+          </a>.
+        </p>
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
